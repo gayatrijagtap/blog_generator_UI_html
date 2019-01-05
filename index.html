@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Author Name:</label>
+      <input
+        type="text"
+        id="author"
+        style="width:200px;height: 20px; margin-bottom: 30px"
+      />
+      <br />
+      <label>Select Blog Type:</label>
+      <select id="theme" style="margin-bottom:50px; width:150px;height:25px">
+        <option disabled selected value> -- select an option -- </option>
+        <option value="travel">Travel</option>
+        <option value="cooking">Cooking</option>
+        <option value="animals">Animals</option>
+        <option value="other">Other</option> </select
+      ><br />
+      <label>Blog Title:</label>
+      <input
+        type="text"
+        id="title"
+        style="width:200px;height: 20px; margin-bottom: 30px"
+      />
+      <br />
+      <label>Blog Description:</label>
+      <input
+        type="text"
+        id="desc"
+        style="width:300px;height: 30px; margin-bottom: 30px"
+      />
+      <br />
+      <label>Post Title:</label>
+      <input
+        type="text"
+        id="ptitle"
+        style="width:200px;height: 20px; margin-bottom: 30px"
+      />
+      <br />
+      <label>create Blog:</label><br />
+      <textarea name="" id="pcont" cols="50" rows="15"></textarea> <br />
+      <button
+        style="width:100px;height:50px;border-radius: 5px;"
+        onclick="createBlog()"
+      >
+        create
+      </button>
+    </div>
+  </body>
+</html>
