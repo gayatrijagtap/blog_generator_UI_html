@@ -4,7 +4,7 @@ body {
   font-size: 20px;
   background-attachment: fixed;
   background-size: cover;
-  background-image: url("../images/cooking.jpg");
+  background-image: url("/images/cooking.jpg");
 }
 
 .left_align {
